@@ -84,6 +84,8 @@ export interface BoxProps extends React.AriaAttributes {
   id?: string;
   /** Minimum height of container */
   minHeight?: string;
+  /** Maximum height of container */
+  maxHeight?: string;
   /** Minimum width of container */
   minWidth?: string;
   /** Maximum width of container */
@@ -180,6 +182,7 @@ export const Box = forwardRef<HTMLElement, BoxProps>(
       color,
       id,
       minHeight,
+      maxHeight,
       minWidth,
       maxWidth,
       overflowX,
@@ -256,6 +259,7 @@ export const Box = forwardRef<HTMLElement, BoxProps>(
         ? `var(--p-border-width-${borderInlineEndWidth})`
         : undefined,
       '--pc-box-min-height': minHeight,
+      '--pc-box-max-height': maxHeight,
       '--pc-box-min-width': minWidth,
       '--pc-box-max-width': maxWidth,
       '--pc-box-outline': outline ? `var(--p-border-${outline})` : undefined,
