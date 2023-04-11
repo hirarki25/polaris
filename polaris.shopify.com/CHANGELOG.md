@@ -1,5 +1,21 @@
 # polaris.shopify.com
 
+## 0.48.0
+
+### Minor Changes
+
+- [#8832](https://github.com/Shopify/polaris/pull/8832) [`7b6715957`](https://github.com/Shopify/polaris/commit/7b671595750d356d20440c9bfeada3ff1bb59277) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Add resource-index-layout pattern
+
+### Patch Changes
+
+- [#8904](https://github.com/Shopify/polaris/pull/8904) [`a4efb9212`](https://github.com/Shopify/polaris/commit/a4efb9212532b5f1c1092dfea9d3bcac168e3fa9) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Update useful-to-know copy in resource-details-layout pattern
+
+* [#8905](https://github.com/Shopify/polaris/pull/8905) [`3bce6e792`](https://github.com/Shopify/polaris/commit/3bce6e79275bcc2602ca1c3567a5c9c33c1b6554) Thanks [@gwyneplaine](https://github.com/gwyneplaine)! - Pattern page ul's now have padding conforming to the rest of the site
+
+* Updated dependencies [[`247f5eea8`](https://github.com/Shopify/polaris/commit/247f5eea859b3ab348dcb18c568f18d8d859140e)]:
+  - @shopify/polaris-tokens@6.10.0
+  - @shopify/polaris@10.42.2
+
 ## 0.47.1
 
 ### Patch Changes
